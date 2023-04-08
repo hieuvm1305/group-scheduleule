@@ -307,8 +307,8 @@ function App() {
       <div className="w-[600px] mx-auto my-4 border border-black rounded-sm px-5">
       {matches?.map((value)=>(
         <div key={value.Match} className="flex flex-row justify-between items-center my-2">
-            <div className="px-3 py-2 border border-black rounded-lg"><p className="text-[10px]">{value.Match}</p></div>
-            <div className="px-3 py-2 border border-black rounded-lg"><p className="text-[10px]">{value.Day?.join(", ")}</p></div>
+            <div className="px-3 py-2 border border-black rounded-lg"><p className="text-xs">{value.Match}</p></div>
+            <div className="px-3 py-2 border border-black rounded-lg"><p className="text-xs">{value.Day?.join(", ")}</p></div>
         </div>
       )
     )}
